@@ -20,4 +20,4 @@ git checkout -- filename     在你还放在工作区，放入暂存区之前恢
 
 git reset HEAD filename     把暂存区撤销，恢复到工作区
 
-git clone https://github.com/zxc188/express.git   
+git clone https://github.com/zxc188/express.git   将github上的项目克隆到本地
