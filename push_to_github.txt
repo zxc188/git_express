@@ -1,0 +1,11 @@
+现在来教大家如何使用git来将本地库同步到github上
+
+1.    git init    初始化
+
+2.    git add .   将这个目录下的文件都加入到本地库中，也可以一个文件一个文件加入
+
+3.    git commit -m  "介绍"         同步版本库
+
+4.    git remote add origin https://github.com/zxc188/AAAA.git       将本地库添加到github远程库
+
+5.    git push -u origin master              将本地库push到远程库中

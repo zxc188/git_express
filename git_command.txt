@@ -1,0 +1,23 @@
+git init   建立git版本库
+
+git add    增加文件
+
+git commit  -m  "标志"   同步到版本库
+
+git diff express.txt    查看当前的express.txt文件和版本库里面的文件的区别
+
+git log    查看git版本日志
+
+git reset --hard HEAD~10   回到此版本之前的10个版本
+
+git reflog   查看输入的git命令历史
+
+git remote add origin git@github.com:zxc188/express.git    向github本地库同步到github仓库
+
+git push -u origin master     将本地库push到远程库中（github）
+
+git checkout -- filename     在你还放在工作区，放入暂存区之前恢复到你修改之前的文件
+
+git reset HEAD filename     把暂存区撤销，恢复到工作区
+
+git clone https://github.com/zxc188/express.git   
