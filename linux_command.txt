@@ -10,3 +10,15 @@ sudo update-rc.d ServiceName remove
 //删除文件
 suso rm -r filename
 
+//打开路径
+cd filepath
+
+//心事目录下的所有文件
+ls
+
+//下载
+sudo apt-get install  file
+
+//更新库
+sudo apt-get update
+
