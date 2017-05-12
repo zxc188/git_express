@@ -22,3 +22,9 @@ sudo apt-get install  file
 //更新库
 sudo apt-get update
 
+//分配虚拟内存
+dd if=/dev/zero of=/swapfile count=4096 bs=1M
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+echo "/swapfile   none    swap    sw    0   0" | tee -a /etc/fstab
