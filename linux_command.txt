@@ -1,0 +1,12 @@
+//禁用php模块并重启apache
+sudo a2dismod php5 && sudo service apache2 restart
+
+//重用php模块并重启apache
+sudo a2enmod php5 && sudo service apache2 restart
+
+//删除服务
+sudo update-rc.d ServiceName remove
+
+//删除文件
+suso rm -r filename
+
