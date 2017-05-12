@@ -4,6 +4,9 @@ sudo a2dismod php5 && sudo service apache2 restart
 //重用php模块并重启apache
 sudo a2enmod php5 && sudo service apache2 restart
 
+//查看服务
+ps auxw
+
 //删除服务
 sudo update-rc.d ServiceName remove
 
