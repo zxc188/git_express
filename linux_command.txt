@@ -38,3 +38,35 @@ echo "/swapfile   none    swap    sw    0   0" | tee -a /etc/fstab
 
 //修改文件权限
 sudo chmod 777 filepath
+
+查看目录
+ls -l 查看当前目录的所有属性
+ls -al  查看当前目录的所有文件（包括隐文件）的属性
+ls -lad  查看当前目录的所有文件的属性
+ls -Fal --color=never 当前目录的文件不分颜色显示
+
+复制文件 cp file_path  other_file
+参数：
+-a 在当前目录下复制一个在file_path下的文件
+-p 连同文件的属性一起复制（备份文件常用）
+-i 在复制之前判断如果在这个目录下面有同名文件询问是否覆盖
+
+删除文件 rm file_path
+参数：
+-r 递归删除文件目录（有一定的危险，直接删除文件夹或文件，不可恢复）
+-i 在删除之前询问是否删除（常用）
+
+移动文件 mv file_path  new_file_path
+参数：
+-i 若目标文件存在的情况下，询问是否覆盖文件
+
+文件的内容查询 cat file_path
+-b 显示行号（空白行没有行号）
+-n 显示行号（空白行有行号）
+-E 将结尾的$显示出来
+tac(反向查看文件内容)
+
+
+ 
+
+
